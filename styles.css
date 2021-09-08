@@ -1,0 +1,81 @@
+/* Boilerplate */
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  height: 600px;
+  margin: 1rem auto;
+  width: 600px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+div:focus {
+  background-color: aliceblue;
+}
+
+.tl {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.tr {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.center {
+  border: 1px solid black;
+}
+
+.bl {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.br {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#reset {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+p {
+  display: inline;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.win {
+  background-color: yellow;
+}
